@@ -6818,6 +6818,17 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <rectangle x1="3.5649" y1="2" x2="4.0551" y2="3.1001" layer="51"/>
 <rectangle x1="2.2949" y1="2" x2="2.7851" y2="3.1001" layer="51"/>
 <rectangle x1="1.0249" y1="2" x2="1.5151" y2="3.1001" layer="51"/>
+<wire x1="-4.305" y1="1.265" x2="4.305" y2="1.265" width="0.2032" layer="21"/>
+<wire x1="4.305" y1="1.265" x2="4.305" y2="-0.765" width="0.2032" layer="21"/>
+<wire x1="4.305" y1="-0.765" x2="4.305" y2="-1.273" width="0.2032" layer="21"/>
+<wire x1="4.305" y1="-1.273" x2="-3.797" y2="-1.273" width="0.2032" layer="21"/>
+<wire x1="-3.797" y1="-1.273" x2="-4.305" y2="-0.765" width="0.2032" layer="21"/>
+<wire x1="-4.305" y1="-0.765" x2="-4.305" y2="1.265" width="0.2032" layer="21"/>
+<polygon width="0.254" layer="21">
+<vertex x="-4.445" y="-2.667"/>
+<vertex x="-4.699" y="-2.413"/>
+<vertex x="-4.699" y="-2.921"/>
+</polygon>
 </package>
 </packages>
 <symbols>
