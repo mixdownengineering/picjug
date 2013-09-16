@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -179,6 +179,20 @@
 <vertex x="10.61833125" y="28.129846875"/>
 </polygon>
 <text x="12.7" y="25.654" size="1.016" layer="21" ratio="15" rot="R90">GPLv2</text>
+<wire x1="41.783" y1="15.875" x2="42.799" y2="15.875" width="0.1524" layer="21"/>
+<wire x1="42.799" y1="15.875" x2="42.545" y2="16.256" width="0.1524" layer="21"/>
+<wire x1="42.545" y1="16.256" x2="42.545" y2="15.494" width="0.1524" layer="21"/>
+<wire x1="42.545" y1="15.494" x2="42.799" y2="15.875" width="0.1524" layer="21"/>
+<wire x1="41.783" y1="15.748" x2="42.672" y2="15.748" width="0.1524" layer="21"/>
+<wire x1="41.783" y1="16.002" x2="42.672" y2="16.002" width="0.1524" layer="21"/>
+<wire x1="41.783" y1="15.748" x2="41.783" y2="16.002" width="0.1524" layer="21"/>
+<wire x1="42.799" y1="13.335" x2="41.783" y2="13.335" width="0.1524" layer="21"/>
+<wire x1="41.783" y1="13.335" x2="42.037" y2="12.954" width="0.1524" layer="21"/>
+<wire x1="42.037" y1="12.954" x2="42.037" y2="13.716" width="0.1524" layer="21"/>
+<wire x1="42.037" y1="13.716" x2="41.783" y2="13.335" width="0.1524" layer="21"/>
+<wire x1="42.799" y1="13.462" x2="41.91" y2="13.462" width="0.1524" layer="21"/>
+<wire x1="42.799" y1="13.208" x2="41.91" y2="13.208" width="0.1524" layer="21"/>
+<wire x1="42.799" y1="13.462" x2="42.799" y2="13.208" width="0.1524" layer="21"/>
 </plain>
 <libraries>
 <library name="pinhead">
